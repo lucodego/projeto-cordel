@@ -11,7 +11,6 @@
 
 
 html, body{
-    background-color: darkgray;
     min-height: 100vh;
     margin: 0px;
 
@@ -28,7 +27,7 @@ h1{
     padding-top: 20px;
 }
 h1#titulo{
-    font-size: 4.5em;
+    font-size: 10vw;
     font-family: titulo;
     font-weight: normal;
 }
@@ -47,18 +46,19 @@ a#nome{
 a#nome:hover{
     text-decoration: underline;
 }
-p{
-    font-size: 100%;
-    line-height: 60px;
+section > p{
+    
+    font-size: 3.5vw;
     font-family: sriracha;
     font-weight: normal;
-    font-size: 1.5em;
-    padding: 5px;
+    padding: 30px;
 }
 p.dentro{
+    display: inline-block;
     color: white;
-    width: 350px;
-    background-color: rgba(0, 0, 0, 0.445);
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 1px black;
 } 
 section{
     padding-top: 10vh;
@@ -68,12 +68,16 @@ section{
 section.img1{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    position: relative;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
 }
 section.img2{
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
     background-size: cover;
-    background-position: left center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
@@ -81,13 +85,15 @@ footer{
     margin: 0px;
     padding: 5px;
 }
+p.txtrodape{
+    text-align: center;
+    font-size: 2.5vw;
+}
 a.rodape{
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 1.1em;
-    text-align: center;
-
+    font-size: 2.9vw;
 }
 a.rodape:hover{
     text-decoration: underline;
