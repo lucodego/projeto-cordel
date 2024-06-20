@@ -10,8 +10,11 @@
 
 
 
-body{
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
     margin: 0px;
+
 }
 header{
     padding: 1px;
@@ -24,19 +27,19 @@ h1{
     margin-bottom: 0px;
     padding-top: 20px;
 }
-#titulo{
+h1#titulo{
     font-size: 4.5em;
     font-family: titulo;
     font-weight: normal;
 }
-#stitulo{
+p#stitulo{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 0px;
 }
-#nome{
+a#nome{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -44,34 +47,33 @@ h1{
 a#nome:hover{
     text-decoration: underline;
 }
-p.fora{
+p{
     font-size: 100%;
-    line-height: 40px;
+    line-height: 60px;
     font-family: sriracha;
     font-weight: normal;
     font-size: 1.5em;
+    padding: 5px;
 }
 p.dentro{
-    font-size: 100%;
-    line-height: 40px;
-    font-family: sriracha;
-    font-weight: normal;
-    font-size: 1.5em;
+    color: white;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.445);
 } 
-section.branco{
-    padding: 20px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
 section.img1{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     position: relative;
-    padding: 20px;
 }
 section.img2{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-position: left center;
-    padding: 20px;
 }
 footer{
     background-color: black;
