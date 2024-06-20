@@ -52,7 +52,7 @@ section > p{
     font-size: 3.5vw;
     font-family: sriracha;
     font-weight: normal;
-    padding: 30px;
+    padding: 1vh;
 }
 p.dentro{
     display: inline-block;
@@ -62,8 +62,8 @@ p.dentro{
     text-shadow: 1px 1px 1px black;
 } 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     padding-left: 30px;
 }
 section.img1{
