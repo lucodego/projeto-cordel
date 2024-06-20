@@ -34,6 +34,7 @@ h1#titulo{
 p#stitulo{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 1em;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 0px;
